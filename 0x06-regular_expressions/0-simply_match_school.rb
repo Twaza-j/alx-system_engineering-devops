@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
-#This bash script with ruby makes you search for the word school
+# A regular expression that is simply matching School
 puts ARGV[0].scan(/School/).join
